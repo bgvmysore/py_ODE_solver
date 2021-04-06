@@ -4,6 +4,7 @@ This library contains ODE solvers namely Euler Forward, Modified Euler Method an
 
 ## Dependencies
 
-*. Numpy
-*. Matplotlib
-*. Scipy
+
+    1 Numpy
+    2 Matplotlib
+    3 Scipy
