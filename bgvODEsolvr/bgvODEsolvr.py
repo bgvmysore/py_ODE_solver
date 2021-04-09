@@ -136,7 +136,7 @@ class RungeKutta4Solver(ODESol):
         dt2 = self.dt/2
         k1 = self.dt * self.F( tin, X0)
         k2 = self.dt * self.F( tin + dt2, X0 + (k1*0.5) )
-        k3 = self.dt * self.F( tin + dt2, X0 + (k2*0.2) )
+        k3 = self.dt * self.F( tin + dt2, X0 + (k2*0.5) )
         k4 = self.dt * self.F( tin + self.dt, X0 + k3)
         tmp = X0 + (1/6)*(k1+2*(k2+k3)+k4)
         return tmp
