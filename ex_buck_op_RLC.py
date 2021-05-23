@@ -12,7 +12,7 @@ from bgvODEsolvr.bgvODEsolvr import np, linDiffEqnSys, RungeKutta4Solver
   ----------------------------------------------
   |
  ---
- GND
+ GND.
 """
 
 # setting circuit params
